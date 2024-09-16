@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Loja de Roupas</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <nav role="navigation">
+            <ul>
+                <li><a href="#home" aria-label="Ir para a página inicial">Início</a></li>
+                <li><a href="#produtos" aria-label="Ir para a seção de produtos">Produtos</a></li>
+                <li><a href="#contato" aria-label="Ir para a seção de contato">Contato</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="home" class="hero">
+            <h1>Bem-vindo à Nossa Loja de Roupas</h1>
+            <button aria-label="Acessar menu de produtos" class="floating-action-button">🛒</button>
+        </section>
+
+        <section id="produtos">
+            <h2>Produtos</h2>
+            <div class="card-grid">
+                <div class="card">
+                    <img src="img para avaliação/images.jpg" alt="Camisa Vermelha">
+                    <div class="card-content">
+                        <h3>Camisa Vermelha</h3>
+                        <p>Camiseta 100% Algodão </p>
+                        <span class="price">R$ 79,99</span>
+                        <button class="add-to-cart">Adicionar ao Carrinho</button>
+                    </div>
+                </div>
+                <div class="card">
+                    <img src="img para avaliação/calça jeans.jpg" alt="Calça Jeans">
+                    <div class="card-content">
+                        <h3>Calça Jeans</h3>
+                        <p>Descrição da calça jeans.</p>
+                        <span class="price">R$ 99,99</span>
+                        <button class="add-to-cart">Adicionar ao Carrinho</button>
+                    </div>
+                </div>
+                <div class="card-grid">
+                    <div class="card">
+                        <img src="croped preto.jpg" alt="Croped Preto">
+                        <div class="card-content">
+                            <h3>Croped Preto</h3>
+                            <p>Cropped Feminino Adulto Canelado Preto </p>
+                            <span class="price">R$ 55,90</span>
+                            <button class="add-to-cart">Adicionar ao Carrinho</button>
+                        </div>
+                        <div class="card-grid">
+                            <div class="card">
+                                <img src="bermuda jeans.jpg" alt="Bermuda Jeans">
+                                <div class="card-content">
+                                    <h3>Bermuda Jeans</h3>
+                                    <p>Bermuda Jeans Com Elastano E Barra Dobrada | Feminino | Marfinno | Azul Claro | 36 </p>
+                                    <span class="price">R$ 87,99</span>
+                                    <button class="add-to-cart">Adicionar ao Carrinho</button>
+                                </div>
+
+            </div>
+        </section>
+
+        <section id="contato">
+            <h2>Contato</h2>
+            <form aria-labelledby="form-title">
+                <h3 id="form-title">Fale Conosco</h3>
+                <label for="name">Nome:</label>
+                <input type="text" id="name" aria-required="true">
+                <label for="email">Email:</label>
+                <input type="email" id="email" aria-required="true">
+                <label for="message">Mensagem:</label>
+                <textarea id="message" aria-required="true"></textarea>
+                <button type="submit">Enviar</button>
+            </form>
+        </section>
+
+        <footer>
+            <a href="https://www.instagram.com" target="_blank" rel="noopener noreferrer" aria-label="Siga-nos no Instagram">Instagram</a>
+        </footer>
+    </main>
+
+   
+
+   
+</body>
+</html>
